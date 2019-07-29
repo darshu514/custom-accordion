@@ -1,0 +1,21 @@
+.panel {
+  background-color: white;
+  color: #222;
+  margin-bottom: 0px;
+}
+
+.panel .title {
+  background-color: #ccc;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #666;
+}
+
+.panel .body {
+  padding: 10px;
+}
+
+.panel .body.hide {
+  display: none;
+}
